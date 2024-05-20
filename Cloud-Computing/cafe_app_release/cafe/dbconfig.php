@@ -4,7 +4,7 @@
 $db_url = "cafe-db.c03roqoeegx9.us-east-1.rds.amazonaws.com";
 $db_user = "admin";
 $db_password = "Re:Start!9";
-$db_name = "cafedb";
+$db_name = "cafe_db";
 
 try {
     $pdo = new PDO("mysql:host=$db_url;dbname=$db_name", $db_user, $db_password);
